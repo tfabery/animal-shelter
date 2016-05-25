@@ -4,22 +4,39 @@ Change the styles of elements nested within the columns using the idea of cascad
 Find other places in your web pages where you can change elements on the page according to cascading precedence. */
 
 body {
+  background-image: url("../img/pink-polkadots.jpg");
   font-family: papyrus;
   text-align: center;
 }
 
-.container {
-  margin: 0 10% 0 10%;
-  max-width: 80%;
+.intro {
+  margin-left: 25%;
+  margin-bottom: 20px;
+  width: 50%;
+  background-color: white;
+  border-width: 1px 3px 3px 1px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 20px;
 }
 
-/*.row {
-  height: 350px;
+.container {
+  margin: 0 10% 0 10%;
+
+}
+
+.center {
+  display: inline-block;
+}
+
+.row {
+  height: 380px;
   margin-bottom: 30px;
-  display: block;
-}*/
+  margin-left:
+}
 
 .col-md-4 {
+  background-color: white;
   color: black;
   text-align: left;
   margin-left: 25px;
@@ -31,7 +48,7 @@ body {
   border-color: black;
   border-radius: 20px;
   width: 300px;
-  float: right;
+  float: left;
 }
 
 .col-md-4:hover {
